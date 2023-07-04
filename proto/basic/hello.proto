@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+option go_package = "github.com/yuttasakcom/go-protobuf-manual";
+
+message Hello {
+  string name = 1;
+}
