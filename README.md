@@ -1,16 +1,23 @@
 # Go Protobuf Manual
 
+## Install compiler
+
+```bash
+go get -u google.golang.org/protobuf
+go get -u google.golang.org/protobuf/proto
+```
+
 ## Install protocol compiler plugins for Go
 
 > https://grpc.io/docs/languages/go/quickstart/#prerequisites
 
-## Complier
+## Run Complier
 
 ```bash
 $ protoc --go_out=. ./proto/basic/*.proto
 ```
 
-## Hello Proto
+## Proto Result
 
 ```proto
 syntax = "proto3";
